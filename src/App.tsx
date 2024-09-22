@@ -1,10 +1,11 @@
-import { VoiceInput } from '@/components/voice-input';
-
+// import { VoiceInput } from '@/components/voice-input';
+import VoiceInputForm from '@/components/home';
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+    <div className="w-full h-full bg-gray-100 flex items-center justify-center">
 
-      <VoiceInput></VoiceInput>
+      {/* <VoiceInput></VoiceInput> */}
+      <VoiceInputForm />
     </div>
   );
 }
